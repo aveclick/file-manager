@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+a:hover{
+    color: #fa8072;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa{
+    color: #fa8072;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    background-color: rgb(35, 46, 77);
+}
+
+.header{
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(23, 31, 56);
+    font-size: 84px;
+    color: #fff;
+    text-align: center;
+}
+
+.folders{
+    margin-top: 70px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #fff;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.folderinfo{
+    display: flex;
+}
+
+.foldersize{
+    margin-right: 50px;
+}
+
+.goback{
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-size: 18px;
+    
+}
+.goback:hover{
+    color: #fff;
+}
+.goback i{
+    margin-right: 10px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.goback:hover i{
+    margin-right: 15px;
+}
